@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#C51162"
+    >
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Beauty Of River"
+                android:textSize="40dp"
+                android:textColor="#FFEBEE"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:background="#E57373"
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/naturebd"
+                android:scaleType="fitXY"
+                android:layout_marginTop="20dp"
+                />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="150dp"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="20dp"
+                        android:weightSum="3"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/like"
+                            android:layout_weight="1"
+                            />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/profile"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/lovetwo"
+                            android:layout_weight="1"
+                            />
+
+                    </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="A river is a ribbon-like body of water that flows downhill from the force of gravity. A river can be wide and deep, or shallow enough for a person to wade across. A flowing body of water that is smaller than a river is called a stream, creek, or brook. Some rivers flow year-round, while others flow only during certain seasons or when there has been a lot of rain. The largest rivers can be thousands of miles long. The erosional power of rivers can form geologic wonders like the Grand Canyon.
+                        All rivers have a starting point where water begins its flow. This source is called a headwater. The headwater can come from rainfall or snowmelt in mountains, but it can also bubble up from groundwater or form at the edge of a lake or large pond. The other end of a river is called its mouth, where water empties into a larger body of water, such as a lake or ocean. Along the way, rivers may pass through wetlands where plants slow down the water and filter out pollutants."
+
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="10dp"
+                android:layout_marginTop="20dp"
+                android:background="#F3E5F5"
+                />
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>
